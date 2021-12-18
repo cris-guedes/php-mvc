@@ -1,12 +1,15 @@
 <?php
-class homeController extends mainController{
-    public function index(){
+class homeController extends mainController
+{
+    public function index()
+    {
         $data = array(
             'texto' => "algo"
         );
-        $this->loadView("home",$data);
+        $this->loadTemplate("home", $data);
     }
-    public function abrir(){
+    public function abrir()
+    {
         echo "okeys";
     }
 }

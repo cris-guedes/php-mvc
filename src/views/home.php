@@ -1,1 +1,1 @@
-<h1>Pagina Home</h1>
+<h1><?= $texto ?></h1>
